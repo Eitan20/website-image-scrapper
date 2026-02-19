@@ -1,0 +1,18 @@
+{
+  "name": "cheap-mobile-screenshot-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "@sparticuz/chromium-min": "^143.0.4",
+    "puppeteer-core": "^24.37.3",
+    "sharp": "^0.34.5"
+  },
+  "devDependencies": {
+    "vercel": "^50.17.1"
+  }
+}
